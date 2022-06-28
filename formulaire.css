@@ -1,0 +1,26 @@
+#titre1, #titre2{
+    color: #1FEC9A;
+}
+/*
+#titre2{
+    color: #17AC9A;
+}*/
+
+.titre{
+    font-size: 45px;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+}
+
+form fieldset label {
+    color: green;
+}
+
+
+form fieldset label, form fieldset input {
+    display: inline-block;
+    width: 40%;
+}

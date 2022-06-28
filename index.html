@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="formulaire.css">
+    </head>
+
+    <body>
+        <form id="formulaire" method="get" action="#">
+            <fieldset>
+                <input id="nom" type="text">
+                <label for="nom">
+                    Votre nom
+                </label>
+            </fieldset>
+            <fieldset>
+                <input id="prénom" type="text">
+                <label for="prénom">Votre prénom</label>
+            </fieldset>
+            <fieldset>
+                <input id="adresse" type="text">
+                <label for="adresse">Votre adresse</label>
+            </fieldset>
+            <fieldset>
+                <input id="ville" type="text">
+                <label for="ville">Votre ville</label>
+            </fieldset>
+            <fieldset>
+                <input id="code" type="text">
+                <label for="code">Votre code postal</label>
+            </fieldset>
+            <fieldset>
+                <input id="email" type="email" required >
+                <label for="email">Votre E-mail</label>
+            </fieldset>
+            <fieldset>
+                <input id="téléphone" type="text">
+                <label for="téléphone">Votre numéro de téléphone</label>
+            </fieldset>
+<div>
+    <input type="submit" id="valider" value="Valider">
+</div>
+</form>
+<form id="formula" method="get" action="www.google.fr">
+    <fieldset>
+        <input id="pseudo" type="text">
+        <label for="pseudo">
+            Votre pseudo
+        </label>
+    </fieldset>
+    <fieldset>
+        <input id="passe" type="text" minlength="8">
+        <label for="passe">
+            Votre mot de passe
+        </label>
+    </fieldset>
+<div>
+    <input type="submit" id="validate" value="Valider">
+</div>
+</form>
+        <script src="formulaire.js"></script>
+    </body>
+</html>
